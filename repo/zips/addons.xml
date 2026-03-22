@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="plugin.program.vrnwizard" name="VRNWizard" version="3.0.8" provider-name="Vran29">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">A wizard to install my builds!</summary>
+		<description lang="en_GB">Kodi Wizard</description>
+		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum />
+		<website /> 
+		<email />
+		<source />
+		<news />
+		<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<banner />
+				<clearlogo />
+				<screenshot />
+		</assets>
+	</extension>
+</addon><addon id="repository.vrn" name="VRNRepo" version="1.0.0" provider-name="Vran29">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Vran29/repository.vrn/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Vran29/repository.vrn/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Vran29/repository.vrn/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>VRNRepo</summary>
+        <description>Just a repo with my stuff</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon></addons>
