@@ -1,7 +1,7 @@
 <builds>
 
   <build>
-	<name>VRNLite</name>
+	<name>VRNLite (NO DEBRID)</name>
 	<version>1.0</version>
 	<kodi>K21</kodi>
 	<url>https://www.dropbox.com/scl/fi/sb3z318bggbpqgn01y922/VRNLite.zip?rlkey=vyin74dd29e1ytjc0vl2kafdq&st=n47mot4o&dl=1</url>
@@ -10,4 +10,17 @@
 	<description>(IMPORTANT: ON FIRST RUN, ELEMENTUM TAKES A BIT TO INSTALL ITSELF. MAKE SURE TO RESTART AFTER ITS DONE) Just a lite build that doesnt need debrid. Uses elementum with burst, Simple PVR and The loop.</description>
 	<preview>http://</preview>
   </build>
+
+  <build>
+	<name>VRNLite (DEBRID ONLY)</name>
+	<version>1.0</version>
+	<kodi>K21</kodi>
+	<url>https://www.dropbox.com/scl/fi/cks3dw8yssek22li9jtte/VRNLite-DEBRID.zip?rlkey=lz700m0ij19o072d7t4944fnp&st=rgu70edd&dl=1</url>
+	<icon>http://</icon>
+	<fanart>http://</fanart>
+	<description>(IMPORTANT: DEBRID ONLY) Just a lite debrid build. Uses POV, Simple pvr and The loop</description>
+	<preview>http://</preview>
+  </build>
+
+	
   
